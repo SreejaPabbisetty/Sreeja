@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Task 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>a{color: blue}</style>
+    <p>Click any of the following links <br /><br />
+        <a href="https://www.amazon.in/" target="_blank">Opens in New</a> |
+        <a href="https://www.amazon.in/">Opens in Self</a> |
+        <a href="https://www.amazon.in/" target="_parent">Opens in Parent</a> |
+        <a href="javascript:void(0);" onclick="openInBody()">Opens in Body</a> |
+        <a href="mailto:sreejapabbisetty@gmail.com">Send email</a>
+      </p>
+      
+      <script>
+        function openInBody() {
+          window.location.href = 'https://www.amazon.in/';
+        }
+      </script>
+</body>
+</html>
